@@ -71,11 +71,11 @@ python app.py
 
 **Bot:**
 
-* OpenAI released new updates
-* Google launched AI features
-* AI startups raised funding
-* Governments discussing regulations
-* Adoption increasing globally
+Bot: - **Allbirds rebrands as an AI company** – The shoe maker announced it is now an AI firm, causing its stock price to surge dramatically, highlighting the “AI is inevitable” hype cycle.  
+- **Samsung’s 2026 TV lineup** – Samsung introduced the Frame Pro and new OLED models, emphasizing artistic design while integrating advanced AI-driven features for picture and content recommendation.  
+- **Dairy Queen adds AI chatbots to drive‑thrus** – The fast‑food chain is deploying AI‑powered chat assistants in dozens of U.S. and Canadian locations to speed service and encourage larger orders.  
+- **Cultural backlash against AI** – A growing public backlash is emerging as companies rush to adopt AI, with many people expressing distrust and fatigue over constant AI hype.  
+- **Meta layoffs to fund AI expansion** – Meta is cutting hundreds of jobs across recruiting, social media, sales, and its Reality Labs division as it redirects resources toward further AI development.
 
 ---
 
