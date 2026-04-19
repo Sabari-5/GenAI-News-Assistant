@@ -1,40 +1,31 @@
 # 🧠 GenAI Real-Time News Assistant
 
-A production-style **GenAI application** that delivers real-time news using **LLMs + external APIs + vector memory (RAG)**.
+An intelligent **GenAI-powered chatbot** that delivers **real-time news** using LLMs, APIs, and vector memory (RAG).
 
 ---
 
-## 🚀 Overview
+## 🚀 Features
 
-This project combines:
-
-* ⚡ Fast LLM inference using Groq
-* 🌐 Real-time data via News API
-* 🧠 Memory using FAISS (Vector Database)
-* 🔗 Orchestration with LangChain
-
-👉 Ensures accurate, up-to-date, and context-aware responses.
+* 🌐 Real-time news retrieval (News API)
+* ⚡ Fast responses using Groq LLM
+* 🧠 Memory with FAISS (RAG)
+* 🎯 Multi-style output (bullets, summary, detailed)
+* 🔗 LangChain-based orchestration
+* ❌ Prevents hallucination using live data
 
 ---
 
 ## 🏗️ Architecture
 
-```
-User Query
-   ↓
-Style Detection (bullets / summary / detailed)
-   ↓
-FAISS Retriever (Past Memory)
-   ↓
-News API (Real-Time Data)
-   ↓
-Prompt Builder
-   ↓
-Groq LLM
-   ↓
-Response Generation
-   ↓
-Store in FAISS (Memory)
+```mermaid
+flowchart TD
+    A[User Query] --> B[Style Detection]
+    B --> C[FAISS Memory]
+    C --> D[News API]
+    D --> E[Prompt Builder]
+    E --> F[Groq LLM]
+    F --> G[Final Response]
+    G --> H[Store in FAISS]
 ```
 
 ---
@@ -44,26 +35,16 @@ Store in FAISS (Memory)
 * Python
 * LangChain
 * Groq API
-* FAISS (Vector Store)
+* FAISS (Vector DB)
 * NewsAPI
 * Sentence Transformers
-
----
-
-## 🔥 Features
-
-* ✅ Real-time news retrieval
-* ✅ Multi-style responses (bullets, summary, detailed)
-* ✅ RAG-based memory (FAISS)
-* ✅ Prompt engineering for structured output
-* ✅ Tool-based architecture (prevents hallucination)
 
 ---
 
 ## ▶️ How to Run
 
 ```bash
-git clone https://github.com/your-username/GenAI-News-Assistant.git
+git clone https://github.com/Sabari-5/GenAI-News-Assistant.git
 cd GenAI-News-Assistant
 
 pip install -r requirements.txt
@@ -84,47 +65,51 @@ python app.py
 
 ---
 
-## 💬 Example
+## 💬 Example Output
 
 **User:** latest AI news
 
 **Bot:**
 
 * OpenAI released new updates
-* Google introduced AI features
+* Google launched AI features
 * AI startups raised funding
 * Governments discussing regulations
-* AI adoption increasing globally
+* Adoption increasing globally
 
 ---
 
-## 🧠 Key Concepts Used
+## 🧠 Key Concepts
 
 * Retrieval-Augmented Generation (RAG)
-* Vector Search using FAISS
+* Vector Search (FAISS)
 * Prompt Engineering
-* Tool Calling with LangChain
+* Tool-based AI system
 
 ---
 
 ## ⚠️ Limitations
 
-* Depends on News API availability
-* Slight delay in real-time updates
-* Free-tier API limits
+* Depends on API availability
+* Slight delay in real-time data
+* Free API rate limits
 
 ---
 
 ## 🚀 Future Improvements
 
-* Streamlit UI (chat interface)
+* Streamlit UI
 * Multi-agent architecture
 * Deployment (AWS / Docker)
 * Advanced query rewriting
-* Hybrid search (news + documents)
 
 ---
+## 💡 Highlights
+- Built a real-time GenAI system combining APIs + LLM + vector memory
+- Implemented RAG to improve response accuracy
+- Designed prompt engineering for structured outputs
 
+---
 ## 👨‍💻 Author
 
-Sabari R
+**Sabari R**
